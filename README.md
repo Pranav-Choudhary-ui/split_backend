@@ -86,3 +86,6 @@ Email: bob@test.com
 Password: Password1!
 ````
 
+👨‍💻 Author
+
+Pranav Choudhary
