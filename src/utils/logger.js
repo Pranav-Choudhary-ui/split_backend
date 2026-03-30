@@ -8,7 +8,7 @@ const customFormat = format.combine(format.timestamp(), format.printf((log) => {
 const logger = createLogger({
     format: customFormat,
     transports: [
-        // new transports.Console(),
+        new transports.Console(),
         new transports.File({
             filename: "./logs/app.log",
             level: 'info'
